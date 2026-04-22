@@ -1,0 +1,108 @@
+{
+  "common": {
+    "reset": "Redefinir",
+    "follow": "Seguir Criador",
+    "faq": "FAQ",
+    "title": "Email Signature Online"
+  },
+  "metadata": {
+    "title": "Gerador de Assinatura de Email - Assinaturas HTML Profissionais Grátis | email-signature.online",
+    "description": "Crie assinaturas de email profissionais para Gmail, Outlook e Apple Mail em segundos. Grátis e sem registro."
+  },
+  "tabs": {
+    "identity": "Identidade",
+    "structure": "Estrutura",
+    "socials": "Sociais",
+    "style": "Estilo"
+  },
+  "editor": {
+    "identity": {
+      "title": "Identidade Pessoal",
+      "subtitle": "Defina seu nome, cargo e dados profissionais.",
+      "profileImage": "Imagem de Perfil",
+      "upload": "Carregar Imagem",
+      "maxSize": "Máx 200x200 (auto-otimizado)",
+      "fullName": "Nome completo",
+      "jobTitle": "Cargo",
+      "company": "Empresa",
+      "email": "E-mail",
+      "phone": "Telemóvel / Celular"
+    },
+    "socials": {
+      "title": "Links Sociais",
+      "subtitle": "Conecte seus perfis profissionais à sua assinatura.",
+      "displayPrefs": "Preferências de Exibição",
+      "icon": "Ícone",
+      "label": "Rótulo",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "portfolio": "Portfólio"
+    },
+    "style": {
+      "title": "Estética Visual",
+      "subtitle": "Personalize cores, tipografia e profundidade.",
+      "primaryColor": "Cor Primária",
+      "fontFamily": "Fonte",
+      "fontSize": "Tamanho da Fonte",
+      "lineHeight": "Espaçamento",
+      "borderWeight": "Grosura da Borda"
+    },
+    "structure": {
+      "title": "Estrutura da Assinatura",
+      "subtitle": "Organize a arquitetura e o layout da sua assinatura.",
+      "contentOrder": "Ordem do Conteúdo",
+      "visualDensity": "Densidade Visual",
+      "labels": {
+        "avatar": "Imagem de Perfil",
+        "info": "Nome e Cargo",
+        "contacts": "Contato",
+        "socials": "Redes Sociais"
+      }
+    }
+  },
+  "preview": {
+    "livePreview": "Prévia ao vivo",
+    "canvasTitle": "Tela de Assinatura",
+    "light": "Claro",
+    "dark": "Escuro",
+    "copySignature": "Copiar Assinatura",
+    "copyHTML": "Copiar HTML",
+    "copied": "Copiado!",
+    "mockupSubject": "Nova mensagem",
+    "mockupHi": "Olá",
+    "mockupBody": "Espero que esteja bem — dando seguimento à nossa conversa. Segue a proposta em anexo.",
+    "mockupBye": "Diga-me se tiver alguma dúvida!",
+    "helpText": "Gmail › Configurações › Assinatura",
+    "helpHTML": "Editor HTML do Outlook",
+    "pickTemplate": "Escolher modelo",
+    "signatureStyles": "Estilos de Assinatura"
+  },
+
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "description": "Tudo o que você precisa saber para criar uma assinatura de email profissional.",
+    "questions": [
+      {
+        "q": "Como adiciono a assinatura ao Gmail?",
+        "a": "Copie a assinatura, vá em Configurações do Gmail > Geral > Assinatura. Cole e salve."
+      },
+      {
+        "q": "É realmente grátis?",
+        "a": "Sim! Você pode criar e usar gratuitamente sem necessidade de conta."
+      },
+      {
+        "q": "Funciona com o Outlook?",
+        "a": "Com certeza. Testado no Outlook, Apple Mail e principais clientes."
+      },
+      {
+        "q": "As assinaturas são responsivas?",
+        "a": "Sim, usamos tabelas para garantir um visual profissional em desktop e mobile."
+      },
+      {
+        "q": "Posso usar o logo da minha empresa?",
+        "a": "Sim, você pode carregar qualquer imagem e ela será otimizada."
+      }
+    ]
+  }
+}

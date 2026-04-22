@@ -1,0 +1,110 @@
+{
+  "common": {
+    "reset": "Réinitialiser",
+    "follow": "Suivre le créateur",
+    "faq": "FAQ",
+    "title": "Email Signature Online",
+    "resetConfirm": "Voulez-vous vraiment tout réinitialiser ? Cela supprimera toutes vos données."
+  },
+
+  "metadata": {
+    "title": "Générateur de Signature d'E-mail - Signatures HTML Professionnelles Gratuites | email-signature.online",
+    "description": "Créez des signatures d'e-mail professionnelles pour Gmail, Outlook et Apple Mail en quelques secondes. Générateur gratuit sans inscription."
+  },
+  "tabs": {
+    "identity": "Identité",
+    "structure": "Structure",
+    "socials": "Sociaux",
+    "style": "Style"
+  },
+  "editor": {
+    "identity": {
+      "title": "Identité Personnelle",
+      "subtitle": "Définissez votre nom, votre titre et vos coordonnées professionnelles.",
+      "profileImage": "Image de profil",
+      "upload": "Charger une image",
+      "maxSize": "Max 200x200 (auto-compressé)",
+      "fullName": "Nom complet",
+      "jobTitle": "Titre du poste",
+      "company": "Entreprise",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone mobile"
+    },
+    "socials": {
+      "title": "Liens Sociaux",
+      "subtitle": "Connectez vos profils professionnels à votre signature.",
+      "displayPrefs": "Préférences d'affichage",
+      "icon": "Icône",
+      "label": "Libellé",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "portfolio": "Portfolio"
+    },
+    "style": {
+      "title": "Esthétique Visuelle",
+      "subtitle": "Personnalisez les couleurs, la typographie et la profondeur visuelle.",
+      "primaryColor": "Couleur Primaire",
+      "fontFamily": "Police de Caractères",
+      "fontSize": "Taille de Police",
+      "lineHeight": "Hauteur de Ligne",
+      "borderWeight": "Épaisseur de Bordure"
+    },
+    "structure": {
+      "title": "Structure de la Signature",
+      "subtitle": "Organisez l'architecture et la disposition de votre signature.",
+      "contentOrder": "Ordre du Contenu",
+      "visualDensity": "Densité Visuelle",
+      "labels": {
+        "avatar": "Image de profil",
+        "info": "Nom & Titre",
+        "contacts": "Infos de Contact",
+        "socials": "Connexions Sociales"
+      }
+    }
+  },
+  "preview": {
+    "livePreview": "Aperçu en direct",
+    "canvasTitle": "Canevas de Signature",
+    "light": "Clair",
+    "dark": "Sombre",
+    "copySignature": "Copier la Signature",
+    "copyHTML": "Copier le HTML",
+    "copied": "Copié !",
+    "mockupSubject": "Nouveau message",
+    "mockupHi": "Bonjour",
+    "mockupBody": "J'espère que vous allez bien — suite à notre conversation. Veuillez trouver la proposition ci-jointe.",
+    "mockupBye": "N'hésitez pas si vous avez des questions !",
+    "helpText": "Gmail › Paramètres › Signature",
+    "helpHTML": "Éditeur HTML Outlook",
+    "pickTemplate": "Choisir un modèle",
+    "signatureStyles": "Styles de Signature"
+  },
+
+  "faq": {
+    "title": "Foire Aux Questions",
+    "description": "Tout ce que vous devez savoir pour créer une signature d'e-mail professionnelle.",
+    "questions": [
+      {
+        "q": "Comment ajouter la signature à Gmail ?",
+        "a": "Cliquez sur le bouton 'Copier la Signature', puis ouvrez Paramètres Gmail > Général > Signature. Collez la signature dans la zone et enregistrez les modifications."
+      },
+      {
+        "q": "Ce générateur est-il vraiment gratuit ?",
+        "a": "Oui ! Vous pouvez créer et utiliser votre signature gratuitement. Aucun compte ou abonnement requis."
+      },
+      {
+        "q": "Est-ce que cela fonctionne avec Outlook ?",
+        "a": "Absolument. Nos signatures sont testées pour être compatibles avec Outlook, Apple Mail et tous les principaux clients de messagerie."
+      },
+      {
+        "q": "Les signatures sont-elles adaptées aux mobiles ?",
+        "a": "Oui, nous utilisons des mises en page basées sur des tableaux qui garantissent que votre signature reste professionnelle sur ordinateur et mobile."
+      },
+      {
+        "q": "Puis-je utiliser le logo de mon entreprise ?",
+        "a": "Oui, vous pouvez charger n'importe quelle image et elle sera optimisée automatiquement pour votre signature."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "common": {
+    "reset": "Restablecer",
+    "follow": "Seguir al creador",
+    "faq": "FAQ",
+    "title": "Email Signature Online"
+  },
+  "metadata": {
+    "title": "Generador de Firmas de Email - Firmas HTML Profesionales Gratis | email-signature.online",
+    "description": "Crea firmas de email profesionales para Gmail, Outlook y Apple Mail en segundos. Gratis y sin registro."
+  },
+  "tabs": {
+    "identity": "Identidad",
+    "structure": "Estructura",
+    "socials": "Redes",
+    "style": "Estilo"
+  },
+  "editor": {
+    "identity": {
+      "title": "Identidad Personal",
+      "subtitle": "Define tu nombre, cargo y datos profesionales.",
+      "profileImage": "Imagen de perfil",
+      "upload": "Subir imagen",
+      "maxSize": "Máx 200x200 (auto-comprimido)",
+      "fullName": "Nombre completo",
+      "jobTitle": "Cargo",
+      "company": "Empresa",
+      "email": "Correo electrónico",
+      "phone": "Teléfono móvil"
+    },
+    "socials": {
+      "title": "Redes Sociales",
+      "subtitle": "Conecta tus perfiles profesionales a tu firma.",
+      "displayPrefs": "Preferencias de visualización",
+      "icon": "Icono",
+      "label": "Etiqueta",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "portfolio": "Portafolio"
+    },
+    "style": {
+      "title": "Estética Visual",
+      "subtitle": "Personaliza colores, tipografía y profundidad.",
+      "primaryColor": "Color Primario",
+      "fontFamily": "Fuente",
+      "fontSize": "Tamaño de fuente",
+      "lineHeight": "Interlineado",
+      "borderWeight": "Grosor del borde"
+    },
+    "structure": {
+      "title": "Estructura de la Firma",
+      "subtitle": "Organiza la arquitectura y diseño de tu firma.",
+      "contentOrder": "Orden del contenido",
+      "visualDensity": "Densidad visual",
+      "labels": {
+        "avatar": "Imagen de perfil",
+        "info": "Nombre y Cargo",
+        "contacts": "Contacto",
+        "socials": "Redes Sociales"
+      }
+    }
+  },
+  "preview": {
+    "livePreview": "Vista previa en vivo",
+    "canvasTitle": "Lienzo de Firma",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "copySignature": "Copiar Firma",
+    "copyHTML": "Copiar HTML",
+    "copied": "¡Copiado!",
+    "mockupSubject": "Nuevo mensaje",
+    "mockupHi": "Hola",
+    "mockupBody": "Espero que estés bien. Adjunto la propuesta tras nuestra conversación.",
+    "mockupBye": "¡Avísame si tienes preguntas!",
+    "helpText": "Gmail › Configuración › Firma",
+    "helpHTML": "Editor HTML de Outlook",
+    "pickTemplate": "Elegir plantilla",
+    "signatureStyles": "Estilos de Firma"
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "description": "Todo lo que necesitas saber para crear una firma de email profesional.",
+    "questions": [
+      {
+        "q": "¿Cómo añado la firma a Gmail?",
+        "a": "Haz clic en 'Copiar Firma', ve a Configuración de Gmail > General > Firma. Pégala y guarda los cambios."
+      },
+      {
+        "q": "¿Es realmente gratis?",
+        "a": "¡Sí! Puedes crear y usar tu firma gratis sin necesidad de registro."
+      },
+      {
+        "q": "¿Funciona con Outlook?",
+        "a": "Absolutamente. Probado en Outlook, Apple Mail y los principales clientes."
+      },
+      {
+        "q": "¿Las firmas son responsivas?",
+        "a": "Sí, usamos tablas HTML para asegurar que se vea bien en móviles y escritorio."
+      },
+      {
+        "q": "¿Puedo usar el logo de mi empresa?",
+        "a": "Sí, sube cualquier imagen y se optimizará automáticamente."
+      }
+    ]
+  }
+}

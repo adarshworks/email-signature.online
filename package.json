@@ -1,7 +1,14 @@
 {
-  "name": "email-signature.online",
-  "version": "0.1.0",
-  "private": true,
+  "name": "email-signature-online",
+  "version": "1.2.0",
+  "description": "A premium, open-source email signature generator built with Next.js and Tailwind CSS.",
+  "author": "Adarsh Kumar (github.com/adarshworks)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadarshkumar/email-signature-online"
+  },
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",

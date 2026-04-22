@@ -1,0 +1,112 @@
+{
+  "common": {
+    "reset": "Zurücksetzen",
+    "follow": "Folge dem Schöpfer",
+    "faq": "FAQ",
+    "title": "Email Signature Online"
+  },
+  "metadata": {
+    "title": "E-Mail-Signatur-Generator - Kostenlose professionelle HTML-Signaturen | email-signature.online",
+    "description": "Erstellen Sie in Sekundenschnelle professionelle E-Mail-Signaturen für Gmail, Outlook und Apple Mail. Kostenlos ohne Anmeldung."
+  },
+  "tabs": {
+    "identity": "Identität",
+    "structure": "Struktur",
+    "socials": "Soziales",
+    "style": "Stil"
+  },
+  "editor": {
+    "identity": {
+      "title": "Persönliche Identität",
+      "subtitle": "Definieren Sie Ihren Namen, Titel und berufliche Daten.",
+      "profileImage": "Profilbild",
+      "upload": "Bild hochladen",
+      "maxSize": "Max. 200x200 (auto-komprimiert)",
+      "fullName": "Vollständiger Name",
+      "jobTitle": "Berufsbezeichnung",
+      "company": "Unternehmen",
+      "email": "E-Mail-Adresse",
+      "phone": "Mobiltelefon",
+      "location": "Standort / Adresse"
+    },
+    "socials": {
+      "title": "Soziale Links",
+      "subtitle": "Verknüpfen Sie Ihre Profile mit Ihrer Signatur.",
+      "displayPrefs": "Anzeigeeinstellungen",
+      "icon": "Symbol",
+      "label": "Beschriftung",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "portfolio": "Portfolio",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "location": "Standort"
+    },
+    "style": {
+      "title": "Visuelle Ästhetik",
+      "subtitle": "Farben, Typografie und visuelle Tiefe anpassen.",
+      "primaryColor": "Primärfarbe",
+      "fontFamily": "Schriftart",
+      "fontSize": "Schriftgröße",
+      "lineHeight": "Zeilenhöhe",
+      "borderWeight": "Rahmenbreite"
+    },
+    "structure": {
+      "title": "Signatur-Struktur",
+      "subtitle": "Organisation und Layout Ihrer Signatur.",
+      "contentOrder": "Inhaltsreihenfolge",
+      "visualDensity": "Visuelle Dichte",
+      "labels": {
+        "avatar": "Profilbild",
+        "info": "Name & Titel",
+        "contacts": "Kontakt-Info",
+        "socials": "Social Media"
+      }
+    }
+  },
+  "preview": {
+    "livePreview": "Live-Vorschau",
+    "canvasTitle": "Signatur-Leinwand",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "copySignature": "Signatur kopieren",
+    "copyHTML": "HTML kopieren",
+    "copied": "Kopiert!",
+    "mockupSubject": "Neue Nachricht",
+    "mockupHi": "Hallo",
+    "mockupBody": "Ich hoffe, es geht Ihnen gut – im Nachgang zu unserem Gespräch. Im Anhang finden Sie das Angebot.",
+    "mockupBye": "Lassen Sie mich wissen, wenn Sie Fragen haben!",
+    "helpText": "Gmail › Einstellungen › Signatur",
+    "helpHTML": "Outlook HTML-Editor",
+    "pickTemplate": "Vorlage wählen",
+    "signatureStyles": "Signatur-Stile"
+  },
+
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Alles, was Sie über professionelle E-Mail-Signaturen wissen müssen.",
+    "questions": [
+      {
+        "q": "Wie füge ich die Signatur zu Gmail hinzu?",
+        "a": "Kopieren Sie die Signatur, öffnen Sie die Gmail-Einstellungen > Allgemein > Signatur. Fügen Sie sie dort ein und speichern Sie."
+      },
+      {
+        "q": "Ist der Generator wirklich kostenlos?",
+        "a": "Ja! Die Nutzung ist komplett kostenlos und erfordert keine Anmeldung."
+      },
+      {
+        "q": "Funktioniert es mit Outlook?",
+        "a": "Absolut. Unsere Signaturen sind für Outlook, Apple Mail und alle gängigen Clients optimiert."
+      },
+      {
+        "q": "Sind die Signaturen mobil-optimiert?",
+        "a": "Ja, sie verwenden Tabellen-Layouts für maximale Kompatibilität auf allen Geräten."
+      },
+      {
+        "q": "Kann ich mein Firmenlogo nutzen?",
+        "a": "Ja, Sie können ein Bild hochladen, das automatisch optimiert wird."
+      }
+    ]
+  }
+}

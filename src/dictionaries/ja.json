@@ -1,0 +1,108 @@
+{
+  "common": {
+    "reset": "リセット",
+    "follow": "クリエイターをフォロー",
+    "faq": "よくある質問",
+    "title": "Email Signature Online"
+  },
+  "metadata": {
+    "title": "メール署名作成ツール - 無料プロフェッショナルHTML署名 | email-signature.online",
+    "description": "Gmail、Outlook、Apple Mail用のプロフェッショナルなメール署名を数秒で作成。登録不要の無料ツール。"
+  },
+  "tabs": {
+    "identity": "基本情報",
+    "structure": "構造",
+    "socials": "SNS",
+    "style": "スタイル"
+  },
+  "editor": {
+    "identity": {
+      "title": "個人プロフィール",
+      "subtitle": "氏名、役職、連絡先を定義します。",
+      "profileImage": "プロフィール画像",
+      "upload": "画像をアップロード",
+      "maxSize": "最大 200x200（自動圧縮）",
+      "fullName": "氏名",
+      "jobTitle": "役職",
+      "company": "会社名",
+      "email": "メールアドレス",
+      "phone": "電話番号"
+    },
+    "socials": {
+      "title": "SNSリンク",
+      "subtitle": "署名にSNSプロフィールを連携します。",
+      "displayPrefs": "表示設定",
+      "icon": "アイコン",
+      "label": "ラベル",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "portfolio": "ポートフォリオ"
+    },
+    "style": {
+      "title": "ビジュアル設定",
+      "subtitle": "色、タイポグラフィ、奥行きをカスタマイズします。",
+      "primaryColor": "メインカラー",
+      "fontFamily": "フォント",
+      "fontSize": "フォントサイズ",
+      "lineHeight": "行間",
+      "borderWeight": "枠線の太さ"
+    },
+    "structure": {
+      "title": "署名構造",
+      "subtitle": "署名の構成とレイアウトを整理します。",
+      "contentOrder": "表示順序",
+      "visualDensity": "表示密度",
+      "labels": {
+        "avatar": "プロフィール画像",
+        "info": "氏名・役職",
+        "contacts": "連絡先",
+        "socials": "SNS連携"
+      }
+    }
+  },
+  "preview": {
+    "livePreview": "ライブプレビュー",
+    "canvasTitle": "署名キャンバス",
+    "light": "ライト",
+    "dark": "ダーク",
+    "copySignature": "署名をコピー",
+    "copyHTML": "HTMLをコピー",
+    "copied": "コピー完了！",
+    "mockupSubject": "新規メッセージ",
+    "mockupHi": "こんにちは",
+    "mockupBody": "お世話になっております。先日の打ち合わせに基づき、提案書を添付いたしました。",
+    "mockupBye": "ご不明な点がございましたらお知らせください。",
+    "helpText": "Gmail › 設定 › 署名",
+    "helpHTML": "Outlook HTMLエディタ",
+    "pickTemplate": "テンプレートを選択",
+    "signatureStyles": "署名スタイル"
+  },
+
+  "faq": {
+    "title": "よくある質問",
+    "description": "プロフェッショナルなメール署名作成に関するすべての情報。",
+    "questions": [
+      {
+        "q": "Gmailに署名を追加するには？",
+        "a": "「署名をコピー」をクリックし、Gmailの設定 > 全般 > 署名を開きます。署名を貼り付けて保存してください。"
+      },
+      {
+        "q": "本当に無料ですか？",
+        "a": "はい！登録やサブスクリプションなしで、無料で署名を作成・利用できます。"
+      },
+      {
+        "q": "Outlookで使えますか？",
+        "a": "もちろんです。Outlook、Apple Mail、その他主要なメールクライアントで動作確認済みです。"
+      },
+      {
+        "q": "モバイルに対応していますか？",
+        "a": "はい。テーブルレイアウトを採用しているため、PCでもスマホでも綺麗に表示されます。"
+      },
+      {
+        "q": "会社のロゴは使えますか？",
+        "a": "はい。画像をアップロードすれば、署名用に自動最適化されます。"
+      }
+    ]
+  }
+}

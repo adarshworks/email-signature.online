@@ -1,0 +1,113 @@
+{
+  "common": {
+    "reset": "Reset defaults",
+    "follow": "Follow the Creator",
+    "faq": "FAQ's",
+    "title": "Email Signature Online",
+    "resetConfirm": "Are you sure you want to reset everything? This will delete all your data."
+  },
+
+  "metadata": {
+    "title": "Email Signature Generator - Free Professional HTML Signatures | email-signature.online",
+    "description": "Create professional email signatures for Gmail, Outlook, and Apple Mail in seconds. Free HTML signature generator. No sign-up required."
+  },
+  "tabs": {
+    "identity": "Identity",
+    "structure": "Structure",
+    "socials": "Socials",
+    "style": "Style"
+  },
+  "editor": {
+    "identity": {
+      "title": "Personal Identity",
+      "subtitle": "Define your name, title, and professional coordinates.",
+      "profileImage": "Profile Image",
+      "upload": "Upload Image",
+      "maxSize": "Max 200x200 (auto-compressed)",
+      "fullName": "Full name",
+      "jobTitle": "Job title",
+      "company": "Company",
+      "email": "Email address",
+      "phone": "Mobile phone",
+      "location": "Location / Address"
+    },
+    "socials": {
+      "title": "Social Links",
+      "subtitle": "Connect your professional profiles to your signature.",
+      "displayPrefs": "Display Preferences",
+      "icon": "Icon",
+      "label": "Label",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter / X",
+      "portfolio": "Portfolio",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram"
+    },
+    "style": {
+      "title": "Visual Aesthetics",
+      "subtitle": "Personalize colors, typography, and visual depth.",
+      "primaryColor": "Primary Color",
+      "fontFamily": "Font Family",
+      "fontSize": "Font Size",
+      "lineHeight": "Line Height",
+      "borderWeight": "Border Weight"
+    },
+    "structure": {
+      "title": "Signature Structure",
+      "subtitle": "Organize the architecture and layout of your signature.",
+      "contentOrder": "Content Order",
+      "visualDensity": "Visual Density",
+      "labels": {
+        "avatar": "Profile Image",
+        "info": "Name & Title",
+        "contacts": "Contact Info",
+        "socials": "Social Connects"
+      }
+    }
+  },
+  "preview": {
+    "livePreview": "Live preview",
+    "canvasTitle": "Signature Canvas",
+    "light": "Light",
+    "dark": "Dark",
+    "copySignature": "Copy Signature",
+    "copyHTML": "Copy HTML",
+    "copied": "Copied!",
+    "mockupSubject": "New message",
+    "mockupHi": "Hi",
+    "mockupBody": "Hope this finds you well — following up on our conversation. Please find the proposal attached.",
+    "mockupBye": "Let me know if you have questions!",
+    "helpText": "Gmail › Settings › Signature",
+    "helpHTML": "Outlook HTML editor",
+    "pickTemplate": "Pick a template",
+    "signatureStyles": "Signature Styles"
+  },
+
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know about creating a professional email signature.",
+    "questions": [
+      {
+        "q": "How do I add the signature to Gmail?",
+        "a": "Click the 'Copy Signature' button, then open Gmail Settings > General > Signature. Paste the signature into the box and save changes."
+      },
+      {
+        "q": "Is this generator really free?",
+        "a": "Yes! You can create and use your signature for free. No account or subscription required."
+      },
+      {
+        "q": "Does it work with Outlook?",
+        "a": "Absolutely. Our signatures are tested for compatibility with Outlook, Apple Mail, and all major email clients."
+      },
+      {
+        "q": "Are the signatures mobile-responsive?",
+        "a": "Yes, we use table-based layouts that ensure your signature looks professional on both desktop and mobile devices."
+      },
+      {
+        "q": "Can I use my own company logo?",
+        "a": "Yes, you can upload any image and it will be auto-optimized for your signature."
+      }
+    ]
+  }
+}
