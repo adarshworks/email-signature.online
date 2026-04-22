@@ -32,7 +32,7 @@ The architecture is built on modern, stable foundations to ensure long-term main
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aadarshkumar/email-signature-online.git
+   git clone https://github.com/adarshworks/email-signature-online.git
    ```
 
 2. Install dependencies:
