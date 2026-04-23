@@ -37,7 +37,7 @@ export default function LandingSection() {
             </h1>
             <div className="w-full md:w-64 shrink-0 flex flex-col gap-4">
               <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-subtext block">
-                001 — The Standard
+                The Standard
               </span>
               <p className="text-sm font-sans text-subtext leading-relaxed">
                 {landing.hero.subtitle}
