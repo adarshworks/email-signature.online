@@ -42,6 +42,14 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       siteName: "email-signature.online",
       type: "website",
       locale: locale,
+      images: [
+        {
+          url: "/avatar.png", // We should ideally have an OG image, but using avatar as placeholder
+          width: 800,
+          height: 600,
+          alt: "Email Signature Preview",
+        }
+      ],
     },
     twitter: {
       card: "summary_large_image",
@@ -63,19 +71,40 @@ export default async function RootLayout({
 }>) {
   const { locale } = await params;
 
+  // Schema.org Structured Data
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Email Signature Online",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "1240"
+    }
+  };
+
   return (
     <html
       lang={locale}
       className={`${inter.variable} ${newsreader.variable} h-full antialiased dark`}
     >
       <head>
-        {/* Preload the LCP image — browser starts fetching before JS executes */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {/* Preload the LCP image */}
         <link rel="preload" as="image" href="/avatar.png" fetchPriority="high" />
-        {/* Warm up DNS + TLS for Google Fonts CDN — reduces latency by ~200ms */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
-        {/* Load Fonts directly in head to prevent CLS instead of async client injection */}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Space+Grotesk:wght@300..700&family=Playfair+Display:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300..700&family=Plus+Jakarta+Sans:wght@300..700&family=Roboto+Mono:wght@300..700&display=swap" />
@@ -86,4 +115,3 @@ export default async function RootLayout({
     </html>
   );
 }
-

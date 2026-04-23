@@ -109,5 +109,55 @@
         "a": "Yes, you can upload any image and it will be auto-optimized for your signature."
       }
     ]
+  },
+
+  "landing": {
+    "hero": {
+      "title": "Free Professional Email Signature Generator",
+      "subtitle": "Elevate your professional brand with a custom, high-fidelity email signature. Works with Gmail, Outlook, Apple Mail, and more. No account required."
+    },
+    "features": {
+      "title": "Built for the Modern Professional",
+      "list": [
+        {
+          "title": "Privacy First",
+          "desc": "All data stays in your browser. We never store your personal information on our servers.",
+          "icon": "shield_lock"
+        },
+        {
+          "title": "Client Ready",
+          "desc": "Battle-tested layouts that render perfectly in Outlook, Gmail, and mobile mail clients.",
+          "icon": "verified"
+        },
+        {
+          "title": "Buttery Smooth",
+          "desc": "High-performance real-time editor with OLED-optimized design and instant feedback.",
+          "icon": "bolt"
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "title": "Fill your Info",
+          "desc": "Enter your name, title, company, and contact details in the Identity tab."
+        },
+        {
+          "title": "Choose a Style",
+          "desc": "Pick from our collection of premium, professionally-designed layouts."
+        },
+        {
+          "title": "Export & Use",
+          "desc": "Copy your signature and paste it directly into your email client settings."
+        }
+      ]
+    },
+    "seo": {
+      "title": "Why you need a Professional Email Signature",
+      "p1": "An email signature is more than just your name; it is your digital business card. In a world of digital noise, a clean, professional signature establishes trust and authority instantly. Our generator helps you create high-fidelity HTML signatures that work seamlessly across all platforms.",
+      "p2": "Whether you are a freelancer, a small business owner, or a corporate executive, your email communication should reflect your professional standards. Using a generic 'Sent from my iPhone' signature misses a critical branding opportunity. With our free tool, you can unify your social links, website, and contact information into a single, cohesive design.",
+      "p3": "Our layouts are built using cross-client compatible HTML tables, ensuring that your branding looks exactly as intended, whether viewed on a 4K desktop monitor or a smartphone screen. We prioritize performance and privacy, making this the most efficient tool for creating your professional digital identity."
+    }
   }
 }

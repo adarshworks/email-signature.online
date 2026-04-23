@@ -35,7 +35,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
   const copyHTML = useCallback(async () => {
     const html = renderToStaticMarkup(<SignatureCard data={data} exportMode={true} />);
     try { await navigator.clipboard.writeText(html); ok("html"); }
-    catch { const t=document.createElement("textarea"); t.value=html; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); ok("html"); }
+    catch { const t = document.createElement("textarea"); t.value = html; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); ok("html"); }
   }, [data]);
 
   // Copy as rich text using the same email-safe HTML (table layouts, Icons8 images)
@@ -58,7 +58,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
     }
   }, [data]);
 
-  const scroll = (dir: "left"|"right") => scrollRef.current?.scrollBy({ left: dir==="left"?-280:280, behavior:"smooth" });
+  const scroll = (dir: "left" | "right") => scrollRef.current?.scrollBy({ left: dir === "left" ? -280 : 280, behavior: "smooth" });
 
   const btnBase = "flex items-center gap-2 px-4 py-2.5 rounded-lg text-[11px] font-mono font-bold tracking-tight transition-all duration-200 border";
 
@@ -78,22 +78,21 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
             <button
               onClick={() => setDark(d => !d)}
               title={dark ? dict.preview.light : dict.preview.dark}
-              className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-[11px] font-mono font-bold tracking-tight transition-all duration-200 border ${
-                dark ? "bg-foreground text-background border-foreground" : "border-border bg-surface hover:border-foreground/40 text-foreground"
-              }`}
+              className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-[11px] font-mono font-bold tracking-tight transition-all duration-200 border ${dark ? "bg-foreground text-background border-foreground" : "border-border bg-surface hover:border-foreground/40 text-foreground"
+                }`}
             >
               <i className={dark ? "fa-solid fa-sun" : "fa-solid fa-moon"} style={{ fontSize: 11 }} />
               {dark ? dict.preview.light : dict.preview.dark}
             </button>
 
             <button onClick={copyRich} title={dict.preview.copySignature}
-              className={`${btnBase} ${cs==="rich" ? "bg-emerald-50 border-emerald-300 text-emerald-700" : "border-border bg-surface hover:border-foreground/40 text-foreground"}`}>
-              {cs==="rich" ? <><i className="fa-solid fa-check" style={{fontSize:11}}/> <span className="hidden sm:inline">{dict.preview.copied}</span></> : <><i className="fa-regular fa-copy" style={{fontSize:11}}/> <span className="hidden sm:inline">{dict.preview.copySignature}</span><span className="sm:hidden">Copy</span></>}
+              className={`${btnBase} ${cs === "rich" ? "bg-emerald-50 border-emerald-300 text-emerald-700" : "border-border bg-surface hover:border-foreground/40 text-foreground"}`}>
+              {cs === "rich" ? <><i className="fa-solid fa-check" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copied}</span></> : <><i className="fa-regular fa-copy" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copySignature}</span><span className="sm:hidden">Copy</span></>}
             </button>
 
             <button onClick={copyHTML} title={dict.preview.copyHTML}
-              className={`${btnBase} ${cs==="html" ? "bg-blue-50 border-blue-300 text-blue-700" : "border-border bg-surface hover:border-foreground/40 text-foreground"}`}>
-              {cs==="html" ? <><i className="fa-solid fa-check" style={{fontSize:11}}/> <span className="hidden sm:inline">{dict.preview.copied}</span></> : <><i className="fa-solid fa-code" style={{fontSize:11}}/> <span className="hidden sm:inline">{dict.preview.copyHTML}</span><span className="sm:hidden">HTML</span></>}
+              className={`${btnBase} ${cs === "html" ? "bg-blue-50 border-blue-300 text-blue-700" : "border-border bg-surface hover:border-foreground/40 text-foreground"}`}>
+              {cs === "html" ? <><i className="fa-solid fa-check" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copied}</span></> : <><i className="fa-solid fa-code" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copyHTML}</span><span className="sm:hidden">HTML</span></>}
             </button>
 
           </div>
@@ -104,9 +103,9 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
           {/* Chrome bar */}
           <div className="bg-surface border-b border-border px-5 py-3 flex items-center gap-3">
             <div className="flex gap-1.5">
-              <div className="w-2.5 h-2.5 rounded-full bg-red-400/70"/>
-              <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/70"/>
-              <div className="w-2.5 h-2.5 rounded-full bg-green-400/70"/>
+              <div className="w-2.5 h-2.5 rounded-full bg-red-400/70" />
+              <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/70" />
+              <div className="w-2.5 h-2.5 rounded-full bg-green-400/70" />
             </div>
             <div className="flex-1 bg-background/70 rounded px-3 py-1 text-[10px] font-mono text-subtext border border-border truncate">
               {dict.preview.mockupSubject} · {data.email || "you@company.com"}
@@ -114,17 +113,17 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
 
           </div>
           {/* Email body */}
-          <div 
+          <div
             className="p-5 sm:p-8 md:px-10 overflow-x-auto custom-scrollbar"
             style={{ background: dark ? "#1C1C1E" : "#ffffff" }}
           >
             <div style={{ marginBottom: 32 }}>
-              <p style={{ fontSize:13, color: dark ? "#AEAEB2" : "#888888", lineHeight:1.7, marginBottom:12 }}>{dict.preview.mockupHi} [Name],</p>
-              <p style={{ fontSize:13, color: dark ? "#AEAEB2" : "#888888", lineHeight:1.7, marginBottom:12 }}>{dict.preview.mockupBody}</p>
-              <p style={{ fontSize:13, color: dark ? "#AEAEB2" : "#888888", lineHeight:1.7 }}>{dict.preview.mockupBye}</p>
+              <p style={{ fontSize: 13, color: dark ? "#AEAEB2" : "#888888", lineHeight: 1.7, marginBottom: 12 }}>{dict.preview.mockupHi} [Name],</p>
+              <p style={{ fontSize: 13, color: dark ? "#AEAEB2" : "#888888", lineHeight: 1.7, marginBottom: 12 }}>{dict.preview.mockupBody}</p>
+              <p style={{ fontSize: 13, color: dark ? "#AEAEB2" : "#888888", lineHeight: 1.7 }}>{dict.preview.mockupBye}</p>
             </div>
 
-            <div style={{ paddingTop:24, borderTop: dark ? "1px solid #3A3A3C" : "1px solid #f0f0f0" }}>
+            <div style={{ paddingTop: 24, borderTop: dark ? "1px solid #3A3A3C" : "1px solid #f0f0f0" }}>
               <div><SignatureCard data={data} darkMode={dark} /></div>
             </div>
           </div>
@@ -132,7 +131,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
 
         {/* ── Help text ── */}
         <p className="text-[11px] font-mono text-subtext/60 text-center">
-          <i className="fa-solid fa-circle-info mr-1.5 opacity-40" style={{fontSize:10}}/>
+          <i className="fa-solid fa-circle-info mr-1.5 opacity-40" style={{ fontSize: 10 }} />
           <strong className="text-foreground/40">{dict.preview.copySignature}</strong> → {dict.preview.helpText} &nbsp;·&nbsp;
           <strong className="text-foreground/40">{dict.preview.copyHTML}</strong> → {dict.preview.helpHTML}
         </p>
@@ -147,17 +146,16 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
             </div>
 
             <div className="flex gap-1.5">
-              {(["left","right"] as const).map(dir => (
+              {(["left", "right"] as const).map(dir => (
                 <button key={dir} onClick={() => scroll(dir)}
                   aria-label={`Scroll templates ${dir}`}
                   className="w-8 h-8 flex items-center justify-center border border-border bg-surface hover:border-foreground/40 transition-all rounded-full text-subtext hover:text-foreground">
-                  <i className={`fa-solid fa-chevron-${dir}`} aria-hidden="true" style={{fontSize:10}}/>
+                  <i className={`fa-solid fa-chevron-${dir}`} aria-hidden="true" style={{ fontSize: 10 }} />
                 </button>
               ))}
             </div>
           </div>
-
-          <div ref={scrollRef} className="flex gap-4 overflow-x-auto pb-2 no-scrollbar snap-x snap-mandatory">
+          <div ref={scrollRef} className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory custom-scrollbar">
             {TEMPLATES.map((tpl) => {
               const sel =
                 data.structure.layout === tpl.structure.layout &&
@@ -168,18 +166,18 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
               const prev: SignatureData = { ...data, structure: tpl.structure, style: tpl.style };
 
               return (
-                <div key={tpl.id} className="flex-shrink-0 snap-start" style={{width:320}}>
+                <div key={tpl.id} className="flex-shrink-0 snap-start" style={{ width: 320 }}>
                   <button onClick={() => onApplyTemplate(tpl)}
                     className={`w-full text-left rounded-xl overflow-hidden border-2 transition-all duration-200 bg-surface block ${sel ? "border-foreground shadow-md" : "border-border hover:border-foreground/30 hover:shadow-sm"}`}>
 
                     {/* Signature thumbnail — scaled from 560px */}
-                    <div style={{ height:112, overflow:"hidden", position:"relative", background: dark ? "#1C1C1E" : "#fff" }}>
+                    <div style={{ height: 112, overflow: "hidden", position: "relative", background: dark ? "#1C1C1E" : "#fff" }}>
                       <div style={{
-                        position:"absolute", top:16, left:20,
-                        width:560,
-                        transform:`scale(0.5)`,
-                        transformOrigin:"top left",
-                        pointerEvents:"none", userSelect:"none",
+                        position: "absolute", top: 16, left: 20,
+                        width: 560,
+                        transform: `scale(0.5)`,
+                        transformOrigin: "top left",
+                        pointerEvents: "none", userSelect: "none",
                       }}>
                         {showThumbnails ? <SignatureCard data={prev} darkMode={dark} /> : null}
                       </div>
@@ -193,7 +191,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
                       </div>
                       {sel && (
                         <div className="flex-shrink-0 w-4 h-4 rounded-full bg-foreground flex items-center justify-center">
-                          <i className="fa-solid fa-check text-background" style={{fontSize:7}}/>
+                          <i className="fa-solid fa-check text-background" style={{ fontSize: 7 }} />
                         </div>
                       )}
                     </div>

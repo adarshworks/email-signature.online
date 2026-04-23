@@ -6,6 +6,7 @@ import Sidebar from "@/components/Sidebar";
 import Editor from "@/components/Editor";
 import Preview from "@/components/Preview";
 import Footer from "@/components/Footer";
+import LandingSection from "@/components/LandingSection";
 import { useI18n } from "./I18nProvider";
 
 
@@ -136,35 +137,40 @@ export default function SignatureApp() {
 
 
   return (
-    <div className="flex flex-col h-screen overflow-hidden bg-background text-foreground selection:bg-foreground selection:text-background relative">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-200/50 via-background to-background pointer-events-none -z-10 dark:from-gray-800/30"></div>
-      <Header onReset={resetData} />
+    <div className="flex flex-col min-h-screen bg-background text-foreground selection:bg-foreground selection:text-background relative">
+      {/* Editor Section - Occupies full viewport initially */}
+      <div className="h-screen flex flex-col relative shrink-0 overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-200/50 via-background to-background pointer-events-none -z-10 dark:from-gray-800/30"></div>
+        <Header onReset={resetData} />
 
-      <div className="flex flex-1 overflow-hidden pt-16 pb-[88px] md:pb-7">
-        <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
+        <div className="flex flex-1 overflow-hidden pt-16 pb-[88px] md:pb-7">
+          <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
 
-        <main className="flex flex-col-reverse md:flex-row flex-1 relative z-0 overflow-hidden">
-          <section className="w-full md:w-84 border-t md:border-t-0 md:border-r border-border bg-surface/80 backdrop-blur-md overflow-y-auto custom-scrollbar h-full">
-            <Editor activeTab={activeTab} data={data} updateData={updateData} />
-          </section>
+          <main className="flex flex-col-reverse md:flex-row flex-1 relative z-0 overflow-hidden">
+            <section className="w-full md:w-84 border-t md:border-t-0 md:border-r border-border bg-surface/80 backdrop-blur-md overflow-y-auto custom-scrollbar h-full">
+              <Editor activeTab={activeTab} data={data} updateData={updateData} />
+            </section>
 
-          <section
-            className="w-full md:flex-1 overflow-y-auto custom-scrollbar min-h-[45vh] md:min-h-0"
-            style={{ scrollbarGutter: "stable" }}
-          >
-            <div className="min-h-full flex flex-col items-center justify-start p-6 lg:p-10">
-              <Preview
-                data={data}
-                onApplyTemplate={(template) =>
-                  updateData({ structure: template.structure, style: template.style })
-                }
-              />
-            </div>
-          </section>
-        </main>
+            <section
+              className="w-full md:flex-1 overflow-y-auto custom-scrollbar min-h-[45vh] md:min-h-0"
+              style={{ scrollbarGutter: "stable" }}
+            >
+              <div className="min-h-full flex flex-col items-center justify-start p-6 lg:p-10">
+                <Preview
+                  data={data}
+                  onApplyTemplate={(template) =>
+                    updateData({ structure: template.structure, style: template.style })
+                  }
+                />
+              </div>
+            </section>
+          </main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
 
+      {/* SEO Landing Section - Below the Fold */}
+      <LandingSection />
+    </div>
   );
 }
