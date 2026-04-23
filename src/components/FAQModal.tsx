@@ -28,11 +28,11 @@ export default function FAQModal({ isOpen, onClose }: { isOpen: boolean; onClose
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-8 overflow-hidden pointer-events-none">
       {/* Backdrop - captures clicks to close */}
-      <div 
+      <div
         className="absolute inset-0 bg-background/80 backdrop-blur-sm transition-opacity duration-300 pointer-events-auto"
         onClick={onClose}
       />
-      
+
       {/* Modal Content - ensures it's always centered and fits viewport */}
       <div className="relative w-full max-w-2xl bg-background border border-border rounded-2xl shadow-2xl overflow-hidden animate-in zoom-in-95 fade-in duration-300 max-h-full flex flex-col pointer-events-auto">
 
@@ -42,7 +42,7 @@ export default function FAQModal({ isOpen, onClose }: { isOpen: boolean; onClose
             <h2 className="text-2xl font-serif text-foreground font-medium">{dict.faq.title}</h2>
             <p className="text-subtext text-xs font-mono mt-1">{dict.faq.description}</p>
           </div>
-          <button 
+          <button
             onClick={onClose}
             className="p-2 hover:bg-surface rounded-full transition-colors group"
             aria-label="Close modal"
@@ -72,8 +72,8 @@ export default function FAQModal({ isOpen, onClose }: { isOpen: boolean; onClose
         </div>
 
         <div className="p-6 border-t border-border bg-surface/30 flex justify-between items-center">
-          <span className="text-[10px] font-mono text-subtext uppercase tracking-widest">email-signature.online • SEO optimized</span>
-          <button 
+          <span className="text-[10px] font-mono text-subtex">Email Signature Online</span>
+          <button
             onClick={onClose}
             className="px-6 py-2 bg-foreground text-background rounded-lg text-sm font-medium hover:scale-[1.02] active:scale-[0.98] transition-all"
           >
