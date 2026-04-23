@@ -81,7 +81,8 @@
     "helpText": "Gmail › Settings › Signature",
     "helpHTML": "Outlook HTML editor",
     "pickTemplate": "Pick a template",
-    "signatureStyles": "Signature Styles"
+    "signatureStyles": "Signature Styles",
+    "incompleteWarning": "Your signature seems incomplete (missing name or email). Export anyway?"
   },
 
   "faq": {

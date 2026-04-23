@@ -33,13 +33,19 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
   const ok = (type: CS) => { setCs(type); setTimeout(() => setCs("idle"), 2000); };
 
   const copyHTML = useCallback(async () => {
+    if (!data.fullName || !data.email) {
+      if (!confirm(dict.preview.incompleteWarning || "Your signature seems incomplete (missing name or email). Export anyway?")) return;
+    }
     const html = renderToStaticMarkup(<SignatureCard data={data} exportMode={true} />);
     try { await navigator.clipboard.writeText(html); ok("html"); }
     catch { const t = document.createElement("textarea"); t.value = html; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); ok("html"); }
-  }, [data]);
+  }, [data, dict.preview.incompleteWarning]);
 
   // Copy as rich text using the same email-safe HTML (table layouts, Icons8 images)
   const copyRich = useCallback(async () => {
+    if (!data.fullName || !data.email) {
+      if (!confirm(dict.preview.incompleteWarning || "Your signature seems incomplete (missing name or email). Export anyway?")) return;
+    }
     const html = renderToStaticMarkup(<SignatureCard data={data} exportMode={true} />);
     try {
       const blob = new Blob([html], { type: "text/html" });
@@ -56,7 +62,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
       document.body.removeChild(ta);
       ok("rich");
     }
-  }, [data]);
+  }, [data, dict.preview.incompleteWarning]);
 
   const scroll = (dir: "left" | "right") => scrollRef.current?.scrollBy({ left: dir === "left" ? -280 : 280, behavior: "smooth" });
 
@@ -115,7 +121,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
           {/* Email body */}
           <div
             className="p-5 sm:p-8 md:px-10 overflow-x-auto custom-scrollbar"
-            style={{ background: dark ? "#1C1C1E" : "#ffffff" }}
+            style={{ backgroundColor: dark ? "#1C1C1E" : "#ffffff" }}
           >
             <div style={{ marginBottom: 32 }}>
               <p style={{ fontSize: 13, color: dark ? "#AEAEB2" : "#888888", lineHeight: 1.7, marginBottom: 12 }}>{dict.preview.mockupHi} [Name],</p>
@@ -171,7 +177,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
                     className={`w-full text-left rounded-xl overflow-hidden border-2 transition-all duration-200 bg-surface block ${sel ? "border-foreground shadow-md" : "border-border hover:border-foreground/20 hover:bg-foreground/[0.02] hover:shadow-sm"}`}>
 
                     {/* Signature thumbnail — scaled from 560px */}
-                    <div style={{ height: 112, overflow: "hidden", position: "relative", background: dark ? "#1C1C1E" : "#fff" }}>
+                    <div style={{ height: 112, overflow: "hidden", position: "relative", backgroundColor: dark ? "#1C1C1E" : "#fff" }}>
                       <div style={{
                         position: "absolute", top: 16, left: 20,
                         width: 560,

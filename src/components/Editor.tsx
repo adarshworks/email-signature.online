@@ -90,6 +90,7 @@ export default function Editor({ activeTab, data, updateData }: EditorProps) {
             id="fullName"
             className="w-full bg-background border border-border p-3 font-mono text-sm focus:border-foreground focus:ring-0 transition-all outline-none rounded-lg text-foreground hover:border-subtext"
             type="text"
+            placeholder="e.g. Johnathan Doe"
             value={data.fullName}
             onChange={(e) => updateData({ fullName: e.target.value })}
           />
@@ -101,6 +102,7 @@ export default function Editor({ activeTab, data, updateData }: EditorProps) {
             id="profTitle"
             className="w-full bg-background border border-border p-3 font-mono text-sm focus:border-foreground focus:ring-0 transition-all outline-none rounded-lg text-foreground hover:border-subtext"
             type="text"
+            placeholder="e.g. Senior Product Designer"
             value={data.profTitle}
             onChange={(e) => updateData({ profTitle: e.target.value })}
           />
@@ -112,6 +114,7 @@ export default function Editor({ activeTab, data, updateData }: EditorProps) {
             id="company"
             className="w-full bg-background border border-border p-3 font-mono text-sm focus:border-foreground focus:ring-0 transition-all outline-none rounded-lg text-foreground hover:border-subtext"
             type="text"
+            placeholder="e.g. Cyberdyne Systems"
             value={data.company}
             onChange={(e) => updateData({ company: e.target.value })}
           />
@@ -123,6 +126,7 @@ export default function Editor({ activeTab, data, updateData }: EditorProps) {
             id="email"
             className="w-full bg-background border border-border p-3 font-mono text-sm focus:border-foreground focus:ring-0 transition-all outline-none rounded-lg text-foreground hover:border-subtext"
             type="email"
+            placeholder="e.g. john@cyberdyne.io"
             value={data.email}
             onChange={(e) => updateData({ email: e.target.value })}
           />
@@ -134,6 +138,7 @@ export default function Editor({ activeTab, data, updateData }: EditorProps) {
             id="phone"
             className="w-full bg-background border border-border p-3 font-mono text-sm focus:border-foreground focus:ring-0 transition-all outline-none rounded-lg text-foreground hover:border-subtext"
             type="text"
+            placeholder="e.g. +1 (555) 000-0000"
             value={data.phone}
             onChange={(e) => updateData({ phone: e.target.value })}
           />
@@ -145,6 +150,7 @@ export default function Editor({ activeTab, data, updateData }: EditorProps) {
             id="location"
             className="w-full bg-background border border-border p-3 font-mono text-sm focus:border-foreground focus:ring-0 transition-all outline-none rounded-lg text-foreground hover:border-subtext"
             type="text"
+            placeholder="e.g. Palo Alto, California"
             value={data.location}
             onChange={(e) => updateData({ location: e.target.value })}
           />

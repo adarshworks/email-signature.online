@@ -51,20 +51,20 @@ export interface SignatureData {
 }
 
 export const INITIAL_DATA: SignatureData = {
-  fullName: "Alexandra Mitchell",
-  profTitle: "Senior Product Architect",
-  email: "alexandra.m@lumina.tech",
-  phone: "+1 (555) 000-1928",
-  company: "Lumina Systems",
-  location: "San Francisco, CA",
-  avatarUrl: "/avatar.png",
+  fullName: "",
+  profTitle: "",
+  email: "",
+  phone: "",
+  company: "",
+  location: "",
+  avatarUrl: "",
   socials: {
-    linkedin: { url: "linkedin.com/in/alexandramitchell", showIcon: true, showLabel: false },
-    github: { url: "github.com/amitchell-dev", showIcon: true, showLabel: false },
-    twitter: { url: "twitter.com/alexmitchell", showIcon: true, showLabel: false },
-    portfolio: { url: "amitchell.studio", showIcon: true, showLabel: false },
-    whatsapp: { url: "wa.me/15550001928", showIcon: true, showLabel: false },
-    instagram: { url: "instagram.com/alexmitchell", showIcon: true, showLabel: false },
+    linkedin: { url: "", showIcon: true, showLabel: false },
+    github: { url: "", showIcon: true, showLabel: false },
+    twitter: { url: "", showIcon: true, showLabel: false },
+    portfolio: { url: "", showIcon: true, showLabel: false },
+    whatsapp: { url: "", showIcon: true, showLabel: false },
+    instagram: { url: "", showIcon: true, showLabel: false },
   },
   socialOrder: ["linkedin", "github", "twitter", "whatsapp", "instagram", "portfolio"],
   style: {
