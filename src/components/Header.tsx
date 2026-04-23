@@ -12,7 +12,7 @@ export default function Header({ onReset }: { onReset?: () => void }) {
 
   return (
     <>
-      <header className="flex justify-between items-center w-full h-16 border-b border-border bg-background/80 backdrop-blur-xl fixed top-0 z-50 transition-colors pr-4 sm:pr-6">
+      <header className="flex justify-between items-center w-full h-16 border-b border-border bg-background/80 backdrop-blur-xl fixed top-0 z-[100] transition-colors pr-4 sm:pr-6">
         {/* Left section: Aligned Logo & Branding */}
         <div className="flex items-center h-full select-none">
           <Link href="/" className="group flex items-center h-full">
@@ -55,7 +55,7 @@ export default function Header({ onReset }: { onReset?: () => void }) {
           {/* FAQ Toggle */}
           <button
             onClick={() => setIsFAQOpen(true)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[13px] font-medium text-foreground hover:bg-surface transition-all duration-200"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[13px] font-medium text-foreground hover:bg-foreground/[0.05] transition-all duration-200"
           >
             <span className="material-symbols-outlined text-[18px]">quiz</span>
             <span className="hidden sm:inline">{dict.common.faq}</span>
@@ -73,4 +73,3 @@ export default function Header({ onReset }: { onReset?: () => void }) {
 
   );
 }
-

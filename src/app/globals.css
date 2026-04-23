@@ -49,6 +49,9 @@ body {
   * {
     border-color: var(--border);
   }
+  button {
+    cursor: pointer;
+  }
 }
 
 /* Prevent CLS from icon fonts loading */

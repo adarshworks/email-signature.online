@@ -141,12 +141,12 @@ export default function LandingSection() {
             <div className="flex flex-col items-center gap-6 -mt-[6vw]">
               <button
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="group flex flex-col items-center gap-4 transition-transform hover:-translate-y-1 cursor-pointer"
+                className="group flex flex-col items-center gap-4 transition-all duration-200 hover:-translate-y-2 active:scale-90 cursor-pointer"
               >
-                <div className="w-12 h-12 rounded-full border border-border flex items-center justify-center group-hover:border-foreground transition-colors">
+                <div className="w-12 h-12 rounded-full border border-border flex items-center justify-center group-hover:border-foreground group-hover:bg-foreground/[0.03] transition-all duration-200">
                   <span className="material-symbols-outlined text-[20px] group-hover:text-foreground">north</span>
                 </div>
-                <span className="text-[10px] font-mono uppercase tracking-[0.3em] text-subtext group-hover:text-foreground transition-colors">Back to top</span>
+                <span className="text-[10px] font-mono uppercase tracking-[0.3em] text-subtext group-hover:text-foreground transition-colors duration-200">Back to top</span>
               </button>
             </div>
           </div>

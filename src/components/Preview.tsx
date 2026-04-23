@@ -78,7 +78,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
             <button
               onClick={() => setDark(d => !d)}
               title={dark ? dict.preview.light : dict.preview.dark}
-              className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-[11px] font-mono font-bold tracking-tight transition-all duration-200 border ${dark ? "bg-foreground text-background border-foreground" : "border-border bg-surface hover:border-foreground/40 text-foreground"
+              className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-[11px] font-mono font-bold tracking-tight transition-all duration-200 border ${dark ? "bg-foreground text-background border-foreground hover:bg-foreground/90" : "border-border bg-surface hover:border-foreground/30 hover:bg-foreground/[0.03] text-foreground"
                 }`}
             >
               <i className={dark ? "fa-solid fa-sun" : "fa-solid fa-moon"} style={{ fontSize: 11 }} />
@@ -86,12 +86,12 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
             </button>
 
             <button onClick={copyRich} title={dict.preview.copySignature}
-              className={`${btnBase} ${cs === "rich" ? "bg-emerald-50 border-emerald-300 text-emerald-700" : "border-border bg-surface hover:border-foreground/40 text-foreground"}`}>
+              className={`${btnBase} ${cs === "rich" ? "bg-emerald-50 border-emerald-300 text-emerald-700" : "border-border bg-surface hover:border-foreground/30 hover:bg-foreground/[0.03] text-foreground"}`}>
               {cs === "rich" ? <><i className="fa-solid fa-check" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copied}</span></> : <><i className="fa-regular fa-copy" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copySignature}</span><span className="sm:hidden">Copy</span></>}
             </button>
 
             <button onClick={copyHTML} title={dict.preview.copyHTML}
-              className={`${btnBase} ${cs === "html" ? "bg-blue-50 border-blue-300 text-blue-700" : "border-border bg-surface hover:border-foreground/40 text-foreground"}`}>
+              className={`${btnBase} ${cs === "html" ? "bg-blue-50 border-blue-300 text-blue-700" : "border-border bg-surface hover:border-foreground/30 hover:bg-foreground/[0.03] text-foreground"}`}>
               {cs === "html" ? <><i className="fa-solid fa-check" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copied}</span></> : <><i className="fa-solid fa-code" style={{ fontSize: 11 }} /> <span className="hidden sm:inline">{dict.preview.copyHTML}</span><span className="sm:hidden">HTML</span></>}
             </button>
 
@@ -149,7 +149,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
               {(["left", "right"] as const).map(dir => (
                 <button key={dir} onClick={() => scroll(dir)}
                   aria-label={`Scroll templates ${dir}`}
-                  className="w-8 h-8 flex items-center justify-center border border-border bg-surface hover:border-foreground/40 transition-all rounded-full text-subtext hover:text-foreground">
+                  className="w-8 h-8 flex items-center justify-center border border-border bg-surface hover:border-foreground/30 hover:bg-foreground/[0.03] transition-all rounded-full text-subtext hover:text-foreground">
                   <i className={`fa-solid fa-chevron-${dir}`} aria-hidden="true" style={{ fontSize: 10 }} />
                 </button>
               ))}
@@ -168,7 +168,7 @@ export default function Preview({ data, onApplyTemplate }: PreviewProps) {
               return (
                 <div key={tpl.id} className="flex-shrink-0 snap-start" style={{ width: 320 }}>
                   <button onClick={() => onApplyTemplate(tpl)}
-                    className={`w-full text-left rounded-xl overflow-hidden border-2 transition-all duration-200 bg-surface block ${sel ? "border-foreground shadow-md" : "border-border hover:border-foreground/30 hover:shadow-sm"}`}>
+                    className={`w-full text-left rounded-xl overflow-hidden border-2 transition-all duration-200 bg-surface block ${sel ? "border-foreground shadow-md" : "border-border hover:border-foreground/20 hover:bg-foreground/[0.02] hover:shadow-sm"}`}>
 
                     {/* Signature thumbnail — scaled from 560px */}
                     <div style={{ height: 112, overflow: "hidden", position: "relative", background: dark ? "#1C1C1E" : "#fff" }}>

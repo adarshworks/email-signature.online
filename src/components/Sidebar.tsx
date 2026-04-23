@@ -30,16 +30,16 @@ export default function Sidebar({ activeTab, setActiveTab }: SidebarProps) {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id as Tab)}
-              className={`w-full h-full md:h-auto flex flex-col items-center justify-center md:py-4 transition-all duration-200 relative ${
+              className={`w-full h-full md:h-auto flex flex-col items-center justify-center md:py-4 transition-all duration-200 relative cursor-pointer group ${
                 isActive 
                   ? "text-foreground bg-background/50 shadow-inner" 
-                  : "text-subtext hover:text-foreground hover:bg-background/30"
+                  : "text-subtext hover:text-foreground hover:bg-foreground/[0.03]"
               }`}
             >
-              <span className={`material-symbols-outlined text-[20px] md:text-[22px] mb-0.5 md:mb-1.5 ${isActive ? 'font-fill text-foreground' : 'opacity-80'} transition-transform`}>
+              <span className={`material-symbols-outlined text-[20px] md:text-[22px] mb-0.5 md:mb-1.5 ${isActive ? 'font-fill text-foreground' : 'opacity-80 group-hover:opacity-100'} transition-all`}>
                 {tab.icon}
               </span>
-              <span className={`text-[8px] md:text-[9px] font-mono tracking-widest transition-opacity ${isActive ? 'opacity-100 font-bold' : 'opacity-60'}`}>
+              <span className={`text-[8px] md:text-[9px] font-mono tracking-widest transition-opacity ${isActive ? 'opacity-100 font-bold' : 'opacity-60 group-hover:opacity-100'}`}>
                 {tab.label}
               </span>
               
