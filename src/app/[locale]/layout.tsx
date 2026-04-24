@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Newsreader } from "next/font/google";
 import "../globals.css";
 import { getDictionary } from "@/lib/get-dictionary";
+import { Analytics } from "@vercel/analytics/next";
+
 
 const inter = Inter({
   variable: "--font-inter",
@@ -118,6 +120,8 @@ export default async function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-foreground selection:text-background font-sans">
         {children}
+        <Analytics />
+
       </body>
     </html>
   );
