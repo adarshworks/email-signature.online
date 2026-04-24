@@ -6,8 +6,8 @@
     "title": "Email Signature Online"
   },
   "metadata": {
-    "title": "Generador de Firmas de Email - Firmas HTML Profesionales Gratis | email-signature.online",
-    "description": "Crea firmas de email profesionales para Gmail, Outlook y Apple Mail en segundos. Gratis y sin registro."
+    "title": "Generador de Firmas de Email Gratis",
+    "description": "Crea firmas de email profesionales para Gmail, Outlook y Apple Mail en segundos. Generador HTML gratuito, sin registro y privado."
   },
   "tabs": {
     "identity": "Identidad",
@@ -78,7 +78,6 @@
     "pickTemplate": "Elegir plantilla",
     "signatureStyles": "Estilos de Firma"
   },
-
   "faq": {
     "title": "Preguntas Frecuentes",
     "description": "Todo lo que necesitas saber para crear una firma de email profesional.",

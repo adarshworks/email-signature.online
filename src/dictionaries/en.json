@@ -6,10 +6,9 @@
     "title": "Email Signature Online",
     "resetConfirm": "Are you sure you want to reset everything? This will delete all your data."
   },
-
   "metadata": {
-    "title": "Email Signature Generator - Free Professional HTML Signatures | email-signature.online",
-    "description": "Create professional email signatures for Gmail, Outlook, and Apple Mail in seconds. Free HTML signature generator. No sign-up required."
+    "title": "Free Email Signature Generator",
+    "description": "Create professional email signatures for Gmail, Outlook, & Apple Mail in seconds. Free HTML generator, no sign-up required, privacy-first design."
   },
   "tabs": {
     "identity": "Identity",
@@ -84,7 +83,6 @@
     "signatureStyles": "Signature Styles",
     "incompleteWarning": "Your signature seems incomplete (missing name or email). Export anyway?"
   },
-
   "faq": {
     "title": "Frequently Asked Questions",
     "description": "Everything you need to know about creating a professional email signature.",
@@ -111,7 +109,6 @@
       }
     ]
   },
-
   "landing": {
     "hero": {
       "title": "Free Professional Email Signature Generator",

@@ -6,10 +6,9 @@
     "title": "Email Signature Online",
     "resetConfirm": "Voulez-vous vraiment tout réinitialiser ? Cela supprimera toutes vos données."
   },
-
   "metadata": {
-    "title": "Générateur de Signature d'E-mail - Signatures HTML Professionnelles Gratuites | email-signature.online",
-    "description": "Créez des signatures d'e-mail professionnelles pour Gmail, Outlook et Apple Mail en quelques secondes. Générateur gratuit sans inscription."
+    "title": "Générateur de Signature E-mail Gratuit",
+    "description": "Créez des signatures d'e-mail professionnelles pour Gmail, Outlook et Apple Mail. 100% gratuit, sans inscription et respectueux de la vie privée."
   },
   "tabs": {
     "identity": "Identité",
@@ -80,7 +79,6 @@
     "pickTemplate": "Choisir un modèle",
     "signatureStyles": "Styles de Signature"
   },
-
   "faq": {
     "title": "Foire Aux Questions",
     "description": "Tout ce que vous devez savoir pour créer une signature d'e-mail professionnelle.",

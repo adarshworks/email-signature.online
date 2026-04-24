@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: dict.metadata.title,
     description: dict.metadata.description,
+    keywords: ["email signature generator", "free email signature", "professional email signature", "html email signature", "gmail signature", "outlook signature", "apple mail signature"],
     metadataBase: new URL("https://email-signature.online"),
     alternates: {
       canonical: `/${locale}`,

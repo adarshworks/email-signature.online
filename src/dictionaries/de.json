@@ -6,8 +6,8 @@
     "title": "Email Signature Online"
   },
   "metadata": {
-    "title": "E-Mail-Signatur-Generator - Kostenlose professionelle HTML-Signaturen | email-signature.online",
-    "description": "Erstellen Sie in Sekundenschnelle professionelle E-Mail-Signaturen für Gmail, Outlook und Apple Mail. Kostenlos ohne Anmeldung."
+    "title": "Kostenloser E-Mail-Signatur Generator",
+    "description": "Erstellen Sie professionelle E-Mail-Signaturen für Gmail, Outlook & Apple Mail. Kostenloser HTML-Generator, ohne Anmeldung, privatsphäre-fokussiert."
   },
   "tabs": {
     "identity": "Identität",
@@ -82,7 +82,6 @@
     "pickTemplate": "Vorlage wählen",
     "signatureStyles": "Signatur-Stile"
   },
-
   "faq": {
     "title": "Häufig gestellte Fragen",
     "description": "Alles, was Sie über professionelle E-Mail-Signaturen wissen müssen.",

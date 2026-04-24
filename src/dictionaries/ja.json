@@ -6,8 +6,8 @@
     "title": "Email Signature Online"
   },
   "metadata": {
-    "title": "メール署名作成ツール - 無料プロフェッショナルHTML署名 | email-signature.online",
-    "description": "Gmail、Outlook、Apple Mail用のプロフェッショナルなメール署名を数秒で作成。登録不要の無料ツール。"
+    "title": "無料メール署名作成ツール",
+    "description": "Gmail、Outlook、Apple Mail用のプロフェッショナルなメール署名を数秒で作成。無料のHTMLジェネレーター、登録不要、プライバシー重視。"
   },
   "tabs": {
     "identity": "基本情報",
@@ -78,7 +78,6 @@
     "pickTemplate": "テンプレートを選択",
     "signatureStyles": "署名スタイル"
   },
-
   "faq": {
     "title": "よくある質問",
     "description": "プロフェッショナルなメール署名作成に関するすべての情報。",
