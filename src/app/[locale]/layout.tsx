@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Newsreader } from "next/font/google";
+import Script from "next/script";
+
 import "../globals.css";
 import { getDictionary } from "@/lib/get-dictionary";
 import { Analytics } from "@vercel/analytics/next";
@@ -117,6 +119,22 @@ export default async function RootLayout({
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Space+Grotesk:wght@300..700&family=Playfair+Display:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300..700&family=Plus+Jakarta+Sans:wght@300..700&family=Roboto+Mono:wght@300..700&display=swap" />
+        
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1EVV81VYJB"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-1EVV81VYJB');
+          `}
+        </Script>
+
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-foreground selection:text-background font-sans">
         {children}
