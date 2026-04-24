@@ -16,7 +16,7 @@ export default function Footer() {
       {/* Right: Credits & GitHub */}
       <div className="flex items-center gap-4 sm:gap-6">
         <a
-          href="https://github.com/adarshworks/email-signature-online"
+          href="https://github.com/adarshworks/email-signature.online"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 text-[10px] font-mono text-subtext/60 hover:text-foreground transition-colors group"
