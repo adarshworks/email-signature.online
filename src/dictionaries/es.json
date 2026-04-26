@@ -3,7 +3,9 @@
     "reset": "Restablecer",
     "follow": "Seguir al creador",
     "faq": "FAQ",
-    "title": "Email Signature Online"
+    "title": "Email Signature Online",
+    "source": "Fuente",
+    "by": "por"
   },
   "metadata": {
     "title": "Generador de Firmas de Email Gratis",
@@ -103,5 +105,67 @@
         "a": "Sí, sube cualquier imagen y se optimizará automáticamente."
       }
     ]
+  },
+  "landing": {
+    "hero": {
+      "badge": "El Estándar",
+      "title": "Generador de Firmas de Email Profesionales Gratis",
+      "subtitle": "Eleva tu marca profesional con una firma de email personalizada y de alta fidelidad. Funciona con Gmail, Outlook, Apple Mail y más. Sin necesidad de cuenta."
+    },
+    "features": {
+      "badge": "Arquitectura",
+      "title": "Construido para el Profesional Moderno",
+      "list": [
+        {
+          "title": "Privacidad Primero",
+          "desc": "Todos los datos permanecen en tu navegador. Nunca almacenamos tu información personal en nuestros servidores.",
+          "icon": "shield_lock"
+        },
+        {
+          "title": "Listo para Clientes",
+          "desc": "Diseños probados que se visualizan perfectamente en Outlook, Gmail y clientes de correo móvil.",
+          "icon": "verified"
+        },
+        {
+          "title": "Extremadamente Fluido",
+          "desc": "Editor en tiempo real de alto rendimiento con diseño optimizado para OLED y respuesta instantánea.",
+          "icon": "bolt"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Protocolo",
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "title": "Completa tu Info",
+          "desc": "Introduce tu nombre, cargo, empresa y detalles de contacto en la pestaña de Identidad."
+        },
+        {
+          "title": "Elige un Estilo",
+          "desc": "Elige entre nuestra colección de diseños premium creados profesionalmente."
+        },
+        {
+          "title": "Exportar y Usar",
+          "desc": "Copia tu firma y pégala directamente en la configuración de tu cliente de correo."
+        }
+      ]
+    },
+    "seo": {
+      "title": "Por qué necesitas una Firma de Email Profesional",
+      "p1": "Una firma de email es más que solo tu nombre; es tu tarjeta de visita digital. En un mundo de ruido digital, una firma limpia y profesional establece confianza y autoridad al instante. Nuestro generador te ayuda a crear firmas HTML de alta fidelidad que funcionan a la perfección en todas las plataformas.",
+      "p2": "Ya seas un freelancer, el dueño de un pequeño negocio o un ejecutivo corporativo, tu comunicación por email debe reflejar tus estándares profesionales. Usar una firma genérica 'Enviado desde mi iPhone' hace que pierdas una oportunidad crítica de branding. Con nuestra herramienta gratuita, puedes unificar tus redes sociales, sitio web e información de contacto en un solo diseño cohesivo.",
+      "p3": "Nuestros diseños están construidos usando tablas HTML compatibles con todos los clientes, asegurando que tu marca se vea exactamente como deseas, ya sea en un monitor de escritorio 4K o en la pantalla de un smartphone. Priorizamos el rendimiento y la privacidad, haciendo de esta la herramienta más eficiente para crear tu identidad digital profesional."
+    },
+    "faq": {
+      "badge": "Índice / FAQ"
+    },
+    "footer": {
+      "backToTop": "Volver arriba",
+      "performance": "Diseñado para el rendimiento",
+      "techStack": "Next.js 15 • Turbopack",
+      "rights": "Todos los derechos reservados",
+      "designedBy": "Diseñado por"
+    }
   }
 }

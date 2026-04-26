@@ -1,0 +1,16 @@
+{
+  "title": "Email Signature",
+  "subtitle": "Generator Online",
+  "description": "For professionals, freelancers, and modern businesses.",
+  "titleSize": 65,
+  "descriptionSize": 24,
+  "iconSize": 100,
+  "backgroundColor": "#000000",
+  "textColor": "#FFFFFF",
+  "accentColor": "#888888",
+  "cta": "Create yours for free",
+  "url": "email-signature.online",
+  "mockName": "Jane Cooper",
+  "mockTitle": "Director of Design • Acme Corp",
+  "avatar": "https://unsplash.com/photos/ZHvM3XIOHoE/download?force=true&w=1920"
+}

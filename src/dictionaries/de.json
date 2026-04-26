@@ -3,7 +3,9 @@
     "reset": "Zurücksetzen",
     "follow": "Folge dem Schöpfer",
     "faq": "FAQ",
-    "title": "Email Signature Online"
+    "title": "Email Signature Online",
+    "source": "Quelle",
+    "by": "von"
   },
   "metadata": {
     "title": "Kostenloser E-Mail-Signatur Generator",
@@ -107,5 +109,67 @@
         "a": "Ja, Sie können ein Bild hochladen, das automatisch optimiert wird."
       }
     ]
+  },
+  "landing": {
+    "hero": {
+      "badge": "Der Standard",
+      "title": "Kostenloser professioneller E-Mail-Signatur-Generator",
+      "subtitle": "Werten Sie Ihre berufliche Marke mit einer individuellen, hochwertigen E-Mail-Signatur auf. Funktioniert mit Gmail, Outlook, Apple Mail und mehr. Kein Konto erforderlich."
+    },
+    "features": {
+      "badge": "Architektur",
+      "title": "Gebaut für den modernen Profi",
+      "list": [
+        {
+          "title": "Privatsphäre zuerst",
+          "desc": "Alle Daten bleiben in Ihrem Browser. Wir speichern Ihre persönlichen Daten niemals auf unseren Servern.",
+          "icon": "shield_lock"
+        },
+        {
+          "title": "Bereit für den Kunden",
+          "desc": "Kampferprobte Layouts, die in Outlook, Gmail und mobilen Mail-Clients perfekt gerendert werden.",
+          "icon": "verified"
+        },
+        {
+          "title": "Butterweich",
+          "desc": "Hochleistungs-Echtzeit-Editor mit OLED-optimiertem Design und sofortigem Feedback.",
+          "icon": "bolt"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Protokoll",
+      "title": "Wie es funktioniert",
+      "steps": [
+        {
+          "title": "Info ausfüllen",
+          "desc": "Geben Sie Ihren Namen, Titel, Firma und Kontaktdaten im Identitäts-Tab ein."
+        },
+        {
+          "title": "Stil wählen",
+          "desc": "Wählen Sie aus unserer Kollektion von erstklassigen, professionell gestalteten Layouts."
+        },
+        {
+          "title": "Exportieren & Nutzen",
+          "desc": "Kopieren Sie Ihre Signatur und fügen Sie sie direkt in Ihre E-Mail-Client-Einstellungen ein."
+        }
+      ]
+    },
+    "seo": {
+      "title": "Warum Sie eine professionelle E-Mail-Signatur brauchen",
+      "p1": "Eine E-Mail-Signatur ist mehr als nur Ihr Name; sie ist Ihre digitale Visitenkarte. In einer Welt des digitalen Rauschens schafft eine saubere, professionelle Signatur sofort Vertrauen und Autorität. Unser Generator hilft Ihnen, hochwertige HTML-Signaturen zu erstellen, die nahtlos auf allen Plattformen funktionieren.",
+      "p2": "Egal, ob Sie Freiberufler, Kleinunternehmer oder eine Führungskraft sind, Ihre E-Mail-Kommunikation sollte Ihre professionellen Standards widerspiegeln. Eine generische 'Von meinem iPhone gesendet'-Signatur lässt eine kritische Branding-Chance ungenutzt. Mit unserem kostenlosen Tool können Sie Ihre sozialen Links, Ihre Website und Ihre Kontaktinformationen in einem einzigen, kohärenten Design vereinen.",
+      "p3": "Unsere Layouts werden mit kompatiblen HTML-Tabellen erstellt, um sicherzustellen, dass Ihr Branding genau so aussieht, wie beabsichtigt, egal ob auf einem 4K-Desktop-Monitor oder einem Smartphone-Bildschirm. Wir legen Wert auf Leistung und Datenschutz, was dies zum effizientesten Werkzeug für die Erstellung Ihrer professionellen digitalen Identität macht."
+    },
+    "faq": {
+      "badge": "Index / FAQ"
+    },
+    "footer": {
+      "backToTop": "Zurück nach oben",
+      "performance": "Optimiert für Leistung",
+      "techStack": "Next.js 15 • Turbopack",
+      "rights": "Alle Rechte vorbehalten",
+      "designedBy": "Entworfen von"
+    }
   }
 }

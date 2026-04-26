@@ -40,27 +40,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         ja: "/ja",
       },
     },
-    openGraph: {
-      title: dict.metadata.title,
-      description: dict.metadata.description,
-      url: `https://email-signature.online/${locale}`,
-      siteName: "email-signature.online",
-      type: "website",
-      locale: locale,
-      images: [
-        {
-          url: "/avatar.png", // We should ideally have an OG image, but using avatar as placeholder
-          width: 800,
-          height: 600,
-          alt: "Email Signature Preview",
-        }
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: dict.metadata.title,
-      description: dict.metadata.description,
-    },
     verification: {
       other: {
         "msvalidate.01": "3DF28C0B5119A7251EB5D68FC93D5DC8",

@@ -4,7 +4,9 @@
     "follow": "Suivre le créateur",
     "faq": "FAQ",
     "title": "Email Signature Online",
-    "resetConfirm": "Voulez-vous vraiment tout réinitialiser ? Cela supprimera toutes vos données."
+    "resetConfirm": "Voulez-vous vraiment tout réinitialiser ? Cela supprimera toutes vos données.",
+    "source": "Source",
+    "by": "par"
   },
   "metadata": {
     "title": "Générateur de Signature E-mail Gratuit",
@@ -104,5 +106,67 @@
         "a": "Oui, vous pouvez charger n'importe quelle image et elle sera optimisée automatiquement pour votre signature."
       }
     ]
+  },
+  "landing": {
+    "hero": {
+      "badge": "Le Standard",
+      "title": "Générateur de Signature d'E-mail Professionnel Gratuit",
+      "subtitle": "Valorisez votre image professionnelle avec une signature d'e-mail personnalisée de haute fidélité. Compatible avec Gmail, Outlook, Apple Mail, et plus. Aucun compte requis."
+    },
+    "features": {
+      "badge": "Architecture",
+      "title": "Conçu pour le Professionnel Moderne",
+      "list": [
+        {
+          "title": "Confidentialité d'abord",
+          "desc": "Toutes les données restent dans votre navigateur. Nous ne stockons jamais vos informations personnelles sur nos serveurs.",
+          "icon": "shield_lock"
+        },
+        {
+          "title": "Prêt pour les Clients",
+          "desc": "Des mises en page éprouvées qui s'affichent parfaitement dans Outlook, Gmail et les clients mobiles.",
+          "icon": "verified"
+        },
+        {
+          "title": "Fluidité Totale",
+          "desc": "Éditeur haute performance en temps réel avec un design optimisé pour OLED et retour instantané.",
+          "icon": "bolt"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Protocole",
+      "title": "Comment ça marche",
+      "steps": [
+        {
+          "title": "Remplissez vos Infos",
+          "desc": "Entrez votre nom, titre, entreprise et coordonnées dans l'onglet Identité."
+        },
+        {
+          "title": "Choisissez un Style",
+          "desc": "Sélectionnez parmi notre collection de mises en page premium conçues professionnellement."
+        },
+        {
+          "title": "Exporter & Utiliser",
+          "desc": "Copiez votre signature et collez-la directement dans les paramètres de votre client de messagerie."
+        }
+      ]
+    },
+    "seo": {
+      "title": "Pourquoi une signature d'e-mail professionnelle est essentielle",
+      "p1": "Une signature d'e-mail est bien plus qu'un simple nom ; c'est votre carte de visite numérique. Dans un monde de bruit numérique, une signature propre et professionnelle établit instantanément la confiance et l'autorité. Notre générateur vous aide à créer des signatures HTML de haute fidélité qui fonctionnent parfaitement sur toutes les plateformes.",
+      "p2": "Que vous soyez freelance, propriétaire d'une petite entreprise ou cadre en entreprise, votre communication par e-mail doit refléter vos standards professionnels. Utiliser une signature générique 'Envoyé de mon iPhone' fait perdre une opportunité de branding critique. Avec notre outil gratuit, vous pouvez unifier vos liens sociaux, votre site web et vos coordonnées dans un seul design cohérent.",
+      "p3": "Nos mises en page sont construites à l'aide de tableaux HTML compatibles avec tous les clients, garantissant que votre image de marque s'affiche exactement comme prévu, que ce soit sur un écran 4K ou sur un smartphone. Nous privilégions la performance et la confidentialité, faisant de cet outil le plus efficace pour créer votre identité numérique professionnelle."
+    },
+    "faq": {
+      "badge": "Index / FAQ"
+    },
+    "footer": {
+      "backToTop": "Retour en haut",
+      "performance": "Conçu pour la performance",
+      "techStack": "Next.js 15 • Turbopack",
+      "rights": "Tous droits réservés",
+      "designedBy": "Conçu par"
+    }
   }
 }

@@ -4,7 +4,9 @@
     "follow": "Follow the Creator",
     "faq": "FAQ's",
     "title": "Email Signature Online",
-    "resetConfirm": "Are you sure you want to reset everything? This will delete all your data."
+    "resetConfirm": "Are you sure you want to reset everything? This will delete all your data.",
+    "source": "Source",
+    "by": "by"
   },
   "metadata": {
     "title": "Free Email Signature Generator",
@@ -111,10 +113,12 @@
   },
   "landing": {
     "hero": {
+      "badge": "The Standard",
       "title": "Free Professional Email Signature Generator",
       "subtitle": "Elevate your professional brand with a custom, high-fidelity email signature. Works with Gmail, Outlook, Apple Mail, and more. No account required."
     },
     "features": {
+      "badge": "Architecture",
       "title": "Built for the Modern Professional",
       "list": [
         {
@@ -135,6 +139,7 @@
       ]
     },
     "howItWorks": {
+      "badge": "Protocol",
       "title": "How it Works",
       "steps": [
         {
@@ -156,6 +161,16 @@
       "p1": "An email signature is more than just your name; it is your digital business card. In a world of digital noise, a clean, professional signature establishes trust and authority instantly. Our generator helps you create high-fidelity HTML signatures that work seamlessly across all platforms.",
       "p2": "Whether you are a freelancer, a small business owner, or a corporate executive, your email communication should reflect your professional standards. Using a generic 'Sent from my iPhone' signature misses a critical branding opportunity. With our free tool, you can unify your social links, website, and contact information into a single, cohesive design.",
       "p3": "Our layouts are built using cross-client compatible HTML tables, ensuring that your branding looks exactly as intended, whether viewed on a 4K desktop monitor or a smartphone screen. We prioritize performance and privacy, making this the most efficient tool for creating your professional digital identity."
+    },
+    "faq": {
+      "badge": "Index / FAQ"
+    },
+    "footer": {
+      "backToTop": "Back to top",
+      "performance": "Engineered for performance",
+      "techStack": "Next.js 15 • Turbopack",
+      "rights": "All Rights Reserved",
+      "designedBy": "Designed by"
     }
   }
 }

@@ -37,7 +37,7 @@ export default function LandingSection() {
             </h1>
             <div className="w-full md:w-64 shrink-0 flex flex-col gap-4">
               <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-subtext block">
-                The Standard
+                {landing.hero.badge}
               </span>
               <p className="text-sm font-sans text-subtext leading-relaxed">
                 {landing.hero.subtitle}
@@ -50,7 +50,7 @@ export default function LandingSection() {
         <section className="space-y-8">
           <div className="flex items-center gap-4">
             <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-foreground">
-              Architecture
+              {landing.features.badge}
             </span>
           </div>
 
@@ -61,10 +61,10 @@ export default function LandingSection() {
                   {feature.icon}
                 </span>
                 <div className="space-y-4">
-                  <h3 className="text-3xl font-serif tracking-tight">{feature.title}</h3>
-                  <p className="text-xs font-mono leading-relaxed opacity-60">
-                    {feature.desc}
-                  </p>
+                   <h3 className="text-3xl font-serif tracking-tight">{feature.title}</h3>
+                   <p className="text-xs font-mono leading-relaxed opacity-60">
+                     {feature.desc}
+                   </p>
                 </div>
               </div>
             ))}
@@ -77,6 +77,11 @@ export default function LandingSection() {
             <h2 className="text-4xl sm:text-6xl font-serif tracking-tighter leading-none sticky top-32 uppercase">
               {landing.howItWorks.title}
             </h2>
+            <div className="mt-4">
+              <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-subtext">
+                {landing.howItWorks.badge}
+              </span>
+            </div>
           </div>
 
           <div className="lg:col-span-8 flex flex-col divide-y divide-border border-y border-border">
@@ -112,7 +117,7 @@ export default function LandingSection() {
           <div className="flex flex-col">
             <div className="flex items-center gap-4 pb-8">
               <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-foreground">
-                Index / FAQ
+                {landing.faq.badge}
               </span>
             </div>
 
@@ -146,19 +151,21 @@ export default function LandingSection() {
                 <div className="w-12 h-12 rounded-full border border-border flex items-center justify-center group-hover:border-foreground group-hover:bg-foreground/[0.03] transition-all duration-200">
                   <span className="material-symbols-outlined text-[20px] group-hover:text-foreground">north</span>
                 </div>
-                <span className="text-[10px] font-mono uppercase tracking-[0.3em] text-subtext group-hover:text-foreground transition-colors duration-200">Back to top</span>
+                <span className="text-[10px] font-mono uppercase tracking-[0.3em] text-subtext group-hover:text-foreground transition-colors duration-200">
+                  {landing.footer.backToTop}
+                </span>
               </button>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-end gap-8 text-[10px] font-mono uppercase tracking-[0.2em] text-subtext">
             <div className="space-y-2">
-              <div>Engineered for performance</div>
-              <div className="text-foreground">Next.js 15 • Turbopack</div>
+              <div>{landing.footer.performance}</div>
+              <div className="text-foreground">{landing.footer.techStack}</div>
             </div>
             <div className="text-center md:text-right space-y-2">
-              <div>{new Date().getFullYear()} © All Rights Reserved</div>
-              <div className="text-foreground">Designed by Adarsh Kumar</div>
+              <div>{new Date().getFullYear()} © {landing.footer.rights}</div>
+              <div className="text-foreground">{landing.footer.designedBy} Adarsh Kumar</div>
             </div>
           </div>
         </section>

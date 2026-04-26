@@ -3,7 +3,9 @@
     "reset": "Redefinir",
     "follow": "Seguir Criador",
     "faq": "FAQ",
-    "title": "Email Signature Online"
+    "title": "Email Signature Online",
+    "source": "Fonte",
+    "by": "por"
   },
   "metadata": {
     "title": "Gerador de Assinatura de Email Grátis",
@@ -103,5 +105,67 @@
         "a": "Sim, você pode carregar qualquer imagem e ela será otimizada."
       }
     ]
+  },
+  "landing": {
+    "hero": {
+      "badge": "O Padrão",
+      "title": "Gerador de Assinatura de Email Profissional Grátis",
+      "subtitle": "Eleve a sua marca profissional com uma assinatura de email personalizada e de alta fidelidade. Funciona com Gmail, Outlook, Apple Mail e muito mais. Sem necessidade de conta."
+    },
+    "features": {
+      "badge": "Arquitetura",
+      "title": "Construído para o Profissional Moderno",
+      "list": [
+        {
+          "title": "Privacidade em Primeiro Lugar",
+          "desc": "Todos os dados permanecem no seu navegador. Nunca armazenamos as suas informações pessoais nos nossos servidores.",
+          "icon": "shield_lock"
+        },
+        {
+          "title": "Pronto para Clientes",
+          "desc": "Layouts testados que são renderizados perfeitamente no Outlook, Gmail e clientes de email móveis.",
+          "icon": "verified"
+        },
+        {
+          "title": "Fluidez Total",
+          "desc": "Editor de alto desempenho em tempo real com design otimizado para OLED e feedback instantâneo.",
+          "icon": "bolt"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Protocolo",
+      "title": "Como Funciona",
+      "steps": [
+        {
+          "title": "Preencha os seus Dados",
+          "desc": "Introduza o seu nome, cargo, empresa e detalhes de contacto no separador Identidade."
+        },
+        {
+          "title": "Escolha um Estilo",
+          "desc": "Escolha a partir da nossa coleção de layouts premium desenhados profissionalmente."
+        },
+        {
+          "title": "Exportar e Usar",
+          "desc": "Copie a sua assinatura e cole-a diretamente nas definições do seu cliente de email."
+        }
+      ]
+    },
+    "seo": {
+      "title": "Porque precisa de uma Assinatura de Email Profissional",
+      "p1": "Uma assinatura de email é mais do que apenas o seu nome; é o seu cartão de visita digital. Num mundo de ruído digital, uma assinatura limpa e profissional estabelece confiança e autoridade instantaneamente. O nosso gerador ajuda-o a criar assinaturas HTML de alta fidelidade que funcionam perfeitamente em todas as plataformas.",
+      "p2": "Quer seja um freelancer, proprietário de um pequeno negócio ou executivo corporativo, a sua comunicação por email deve refletir os seus padrões profissionais. Usar uma assinatura genérica 'Enviado do meu iPhone' faz com que perca uma oportunidade crítica de branding. Com a nossa ferramenta gratuita, pode unificar os seus links sociais, website e informações de contacto num único design coeso.",
+      "p3": "Os nossos layouts são construídos usando tabelas HTML compatíveis com todos os clientes, garantindo que a sua marca tenha exatamente o aspeto pretendido, quer seja visualizada num monitor de desktop 4K ou num smartphone. Priorizamos o desempenho e a privacidade, tornando esta na ferramenta mais eficiente para criar a sua identidade digital profissional."
+    },
+    "faq": {
+      "badge": "Índice / FAQ"
+    },
+    "footer": {
+      "backToTop": "Voltar ao topo",
+      "performance": "Otimizado para desempenho",
+      "techStack": "Next.js 15 • Turbopack",
+      "rights": "Todos os direitos reservados",
+      "designedBy": "Desenhado por"
+    }
   }
 }
